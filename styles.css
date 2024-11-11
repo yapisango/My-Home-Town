@@ -1,0 +1,81 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/Komani.jpg");
+    background-size: cover;
+    padding: 10px 20px 10px 20px;
+}
+
+.hero:hover {
+    background-image: url("/images/Ndlovukazi.jpg");
+}
+
+#hero-title {
+    font-size: 15px;
+    background: whitesmoke;
+}
+
+#hero-text {
+    font-size: 12px;
+    background: whitesmoke;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.activity-section {
+    display: flex;
+    font-size: 12px;
+    
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+}
+
+.guide-img {
+    width: 150px;
+    height: 200px;
+}
+.guide-img:hover {
+    background-image: url("/images/Mlungisi.jpg");
+}
+
+.guide-h3 {
+    margin-bottom: 0px;
+}
+
+.guide-h4 {
+    margin-top: 0;
+    margin-bottom: 6px;
+}
